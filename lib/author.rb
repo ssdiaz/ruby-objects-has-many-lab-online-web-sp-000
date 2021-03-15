@@ -1,6 +1,6 @@
 class Author
 
-  attr_accessor :name, :title#, :post 
+  attr_accessor :name, :title#, :post
 
   posts = []
 
@@ -17,7 +17,7 @@ class Author
   end
 
   def post_by_title(title)
-      
+
   end
 
 end
