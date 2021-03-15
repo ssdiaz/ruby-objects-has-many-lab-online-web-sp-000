@@ -13,20 +13,10 @@ class Post
     @@all
   end
 
-  # def author
-  # #  post.author = self
-  # #  self.author.name
-  #
-  # end
-
-
   def author_name
     self.author.name if author
   end
 
-
 end
-
-
 
 #  learn spec/post_spec.rb
