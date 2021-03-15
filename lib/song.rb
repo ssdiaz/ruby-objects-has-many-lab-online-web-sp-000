@@ -6,22 +6,23 @@ class Song
 
   def initialize (name)
     @name = name
-    @@all << self
+    @@all << self #not using name here, usign self to shovel whole instance
+  end
+
+  def self.all
+    @@all
   end
 
 
-  def self.all
-  #  @@all.select {|song| @song_name}
-    @@all
+
+  def name
+    @name
   end
 
   def artist_name
     self.artist.name
   end
 
-  def name
-    @name
-  end
 
 end
 
