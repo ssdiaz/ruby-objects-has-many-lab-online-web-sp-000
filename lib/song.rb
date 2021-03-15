@@ -13,13 +13,14 @@ class Song
     @@all
   end
 
-  def name
-    #@name
-    song.artist = self
-  end
+  # def name
+  #   #@name
+  #   song.artist = self
+  # end
 
   def artist_name
-    self.artist.name
+    #self.artist.name
+    song.artist = self
   end
 
 
