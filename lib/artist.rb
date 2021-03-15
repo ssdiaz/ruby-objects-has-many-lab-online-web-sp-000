@@ -21,6 +21,14 @@ class Artist
     song.artist = self
   end
 
+  def self.song_count
+    count = 0
+    @songs.each do |song|
+      if song.artist == self
+        count += 1
+      end
+    end
+  end
 
 end
 # learn spec/artist_spec.rb
