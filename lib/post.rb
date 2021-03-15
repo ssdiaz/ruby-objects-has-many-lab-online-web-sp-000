@@ -14,10 +14,16 @@ class Post
   end
 
   def author
-    post.author = self
+  #  post.author = self
   #  self.author.name
 
   end
+
+
+  def author_name
+    self.author
+  end
+
 
 end
 
