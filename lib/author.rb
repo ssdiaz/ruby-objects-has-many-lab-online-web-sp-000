@@ -1,6 +1,6 @@
 class Author
 
-  attr_accessor :name
+  attr_accessor :name, :post
 
   posts = []
 
@@ -12,14 +12,16 @@ class Author
     Post.all.select {|post| post.author == self}
   end
 
-
+  def add_post(post)
+      post.author = self
+  end
 
 
 end
 
 
 
-
+#  learn spec/author_spec.rb
 
 
 
