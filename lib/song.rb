@@ -11,7 +11,8 @@ class Song
 
 
   def self.all
-    @@all.select {|song| @song_name}
+  #  @@all.select {|song| @song_name}
+    @@all
   end
 
   def artist_name
