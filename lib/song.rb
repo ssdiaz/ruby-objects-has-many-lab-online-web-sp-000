@@ -9,4 +9,9 @@ class Song
     @@all << song
   end
 
+  def all
+    @@all
+  end
+
+    
 end
