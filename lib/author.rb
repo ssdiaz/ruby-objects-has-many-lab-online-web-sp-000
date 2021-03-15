@@ -21,6 +21,10 @@ class Author
     title.author = self
   end
 
+  def self.post_count
+    Post.all? { |post| post.author == self  }
+  end
+
 end
 
 
