@@ -11,7 +11,7 @@ class Song
 
 
   def self.all
-    @@all.song_name
+    @@all.select { |song_name| @all.song_name}
   end
 
   def artist_name
