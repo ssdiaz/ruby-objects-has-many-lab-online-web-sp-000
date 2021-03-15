@@ -9,9 +9,16 @@ class Song
     @@all << song
   end
 
-  def all
+
+  def @all
     @@all
   end
 
 
+
+
+
 end
+
+
+# learn spec/song_spec.rb
