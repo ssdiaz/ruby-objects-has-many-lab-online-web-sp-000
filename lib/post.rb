@@ -13,7 +13,10 @@ class Post
     @@all
   end
 
-
+  def author
+    #post.author = self
+    self.author.name
+  end
 
 end
 
