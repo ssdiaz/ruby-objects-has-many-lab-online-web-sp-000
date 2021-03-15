@@ -17,24 +17,10 @@ class Author
   end
 
   def post_by_title(title)
-
+    title = Post.new(title)
   end
 
 end
-
-
-
-#  learn spec/author_spec.rb
-
-
-
-
-
-
-
-
-
-
 
 
 
