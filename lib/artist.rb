@@ -29,7 +29,7 @@ class Artist
     #   end
     # end
     # count
-    Songs.all.count
+    Song.all.count
   end
 
 end
