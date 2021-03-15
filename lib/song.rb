@@ -11,7 +11,7 @@ class Song
 
 
   def self.all
-    @@all.each {|song| song_name}
+    @@all.each {|song| @song_name}
   end
 
   def artist_name
