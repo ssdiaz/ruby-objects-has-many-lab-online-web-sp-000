@@ -13,13 +13,12 @@ class Song
     @@all
   end
 
-  def name
-    @name
-  end
+  # def name
+  #   @name
+  # end
 
   def artist_name
     self.artist.name if artist
-
   end
 
 
