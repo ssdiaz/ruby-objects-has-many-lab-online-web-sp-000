@@ -26,4 +26,5 @@ class Artist
   end
 
 end
+
 # learn spec/artist_spec.rb
