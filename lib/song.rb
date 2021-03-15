@@ -6,23 +6,17 @@ class Song
 
   def initialize (name)
     @name = name
-    @@all << self #not using name here, usign self to shovel whole instance
+    @@all << self #not using name here, using self to shovel whole instance
   end
 
   def self.all
     @@all
   end
 
-  # def name
-  #   @name
-  # end
-
   def artist_name
-    self.artist.name if artist
+    self.artist.name if artist # adding if to return nil if song has no artist
   end
 
-
 end
-
 
 # learn spec/song_spec.rb
